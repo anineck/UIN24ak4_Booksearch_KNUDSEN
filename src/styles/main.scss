@@ -7,12 +7,48 @@ body{
             font-family:"Bungee Spice", sans-serif;
             font-weight: 400;
         }
+     }
+        main{
+            display: inline-block;
+
+          input[type="text"] {
+            border: 1px solid #888; 
+            border-radius: 4px; 
+            padding: 10px; 
+            font-size: 16px; 
+            width:95%;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            .book-card {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 15px;
+                box-shadow: 0 2px 5px rgb(181 111 20);
+                border-radius: 10px;
+                width: 300px;
+                padding: 10px;
+                margin-top: 3rem
+            }
+   
+            .book-card img {
+                width: 75%; 
+                height: auto;
+            }
+
+            p{
+                font-size: 15px;
+             margin-top: auto;
+            }
 
     }
-    main{
-        h2{
-            font-size: 20px;
+        footer{
+            p{
+                margin-top: 4rem;
+            }
         }
-
-    }
 }
